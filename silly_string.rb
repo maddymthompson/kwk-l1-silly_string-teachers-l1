@@ -13,7 +13,7 @@ puts "MY FAVORITE WORD IS #{favorite_word_in_all_caps}"
 
 # Challenge 3: Make all the letters of phrase lowercase using a built in Ruby method
 
-phrase = "IM NOT SHOUTING".downcase
+phrase.downcase = "IM NOT SHOUTING"
 
 puts phrase
 
